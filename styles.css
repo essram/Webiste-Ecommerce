@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.promotion {
+  background-color: black;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.promotion .text-promotion {
+  flex: 1;
+  color: white;
+  padding-left: 26%;
+  margin: 10px;
+}
+
+.text-promotion span {
+  font-weight: bold;
+}
+
+.text-promotion .transparant-text{
+    color: black;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  padding-right: 5%;
+}
+
+.language-selector .bahasa {
+  color: white;
+  margin-right: 5px;
+}
+
+.icon-bahasa {
+  color: white;
+  font-size: 20px;
+}
