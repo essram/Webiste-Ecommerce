@@ -23,8 +23,8 @@ body {
   font-weight: bold;
 }
 
-.text-promotion .transparant-text{
-    color: black;
+.text-promotion .transparant-text {
+  color: black;
 }
 
 .language-selector {
@@ -41,4 +41,49 @@ body {
 .icon-bahasa {
   color: white;
   font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #000;
+}
+
+.nav-link:hover {
+  color: #555;
+}
+
+.nav-auth {
+  display: flex;
+  align-items: center;
+}
+
+.separator {
+  margin: 0 10px;
+  color: #000;
+  font-weight: bold;
 }
