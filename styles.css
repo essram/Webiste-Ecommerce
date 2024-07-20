@@ -61,6 +61,8 @@ body {
 
 .nav-item {
   margin: 0 15px;
+  list-style: none;
+  position: relative;
 }
 
 .nav-link {
