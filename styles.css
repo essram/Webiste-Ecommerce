@@ -40,15 +40,14 @@ body {
   font-size: 20px;
 }
 
-/* Navbar Start */
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   background-color: white;
-  margin: 0 50px;
+  margin: 14px 20px;
+  position: relative; /* Added for flex centering */
 }
 
 .nav-menu {
@@ -57,21 +56,28 @@ body {
   margin: 0;
   display: flex;
   color: grey;
+  position: absolute; /* Centers the nav-menu */
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .nav-menu .nav-item {
-  padding: 0 1em 0.25em;
+  padding: 0 2.4em 0.25em;
   cursor: pointer;
   position: relative;
   overflow: hidden;
   transition: 0.3s;
 }
 
+.nav-menu .nav-item:hover {
+  color: #fff;
+}
+
 .nav-menu .nav-item:before {
   content: "";
   position: absolute;
   inset: calc(100% - 3px) 0 0 0;
-  background: #ce4f20;
+  background: gray;
   scale: 0 1;
   transition: 0.3s, translate 0s 0.3s;
 }
@@ -101,14 +107,13 @@ body {
   font-size: 1.1em;
   padding: 10px 5px;
   transition: all 0.4s ease-in-out;
-  font-weight: 450;
+  font-weight: 500;
 }
-
-/* Navbar End */
 
 .auth-links {
   display: flex;
   align-items: center;
+  margin-left: auto; /* Moves auth-links to the right */
 }
 
 .auth-button {
@@ -120,7 +125,6 @@ body {
   font-size: 1em;
   border-radius: 5px;
   cursor: pointer;
-  font-family: "Poppins", sans-serif;
 }
 
 .auth-button:hover {
