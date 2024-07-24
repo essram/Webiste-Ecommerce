@@ -22,7 +22,7 @@ body {
 }
 
 .text-promotion .transparant-text {
-  color: black;
+  color: #070F2B;
 }
 
 .language-selector {
@@ -103,30 +103,10 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: #000;
+  color: #070F2B;
   font-size: 1.1em;
   padding: 10px 5px;
   transition: all 0.4s ease-in-out;
   font-weight: 500;
 }
 
-.auth-links {
-  display: flex;
-  align-items: center;
-  margin-left: auto; /* Moves auth-links to the right */
-}
-
-.auth-button {
-  margin-left: 10px;
-  padding: 10px 20px;
-  border: none;
-  background-color: #000;
-  color: #fff;
-  font-size: 1em;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.auth-button:hover {
-  background-color: #343536;
-}
