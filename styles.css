@@ -32,7 +32,6 @@ body {
   padding: 12px 20px;
   background-color: white;
   margin: 14px 20px;
-  position: relative; /* Added for flex centering */
 }
 
 .nav-menu {
@@ -41,9 +40,8 @@ body {
   margin: 0;
   display: flex;
   color: grey;
-  position: absolute; /* Centers the nav-menu */
-  left: 50%;
-  transform: translateX(-50%);
+  flex: 1; /* Allows the nav-menu to grow and fill the space */
+  justify-content: center;
 }
 
 .nav-menu .nav-item {
@@ -93,4 +91,15 @@ body {
   padding: 10px 5px;
   transition: all 0.4s ease-in-out;
   font-weight: 500;
+}
+
+.icon-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds space between icons */
+}
+
+.icon-profile i {
+  font-size: 1.5em;
+  color: #070f2b;
 }
