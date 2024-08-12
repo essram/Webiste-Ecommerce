@@ -96,7 +96,7 @@ body {
 .icon-profile {
   display: flex;
   align-items: center;
-  gap: 24px; /* Adds space between icons */
+  gap: 24px;
 }
 
 .icon-profile i {
