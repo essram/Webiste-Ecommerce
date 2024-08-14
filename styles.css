@@ -40,7 +40,7 @@ body {
   margin: 0;
   display: flex;
   color: grey;
-  flex: 1; /* Allows the nav-menu to grow and fill the space */
+  flex: 1;  
   justify-content: center;
 }
 
